@@ -19,7 +19,7 @@ In Week 1, I learned:
 
 This project contains a PHP program that checks a student's marks and displays the grade.
 
-### Screenshot
+
 Technologies
 PHP
 HTML
