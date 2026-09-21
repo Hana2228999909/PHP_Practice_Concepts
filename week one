@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade</title>
+</head>
+
+<body>
+
+<?php
+
+$marks = 87;
+
+// If, Elseif, Else
+
+if ($marks >= 90) {
+
+    echo "Excellent";
+
+} elseif ($marks >= 80) {
+
+    echo "Very Good";
+
+} elseif ($marks >= 70) {
+
+    echo "Good";
+
+} elseif ($marks >= 60) {
+
+    echo "Pass";
+
+} else {
+
+    echo "Not Pass";
+}
+
+echo "<br><br>";
+
+// Switch
+
+switch ($marks) {
+
+    case 90:
+        echo "Excellent";
+        break;
+
+    case 88:
+        echo "Very Good";
+        break;
+
+    case 87:
+        echo "Good";
+        break;
+
+    case 60:
+        echo "Pass";
+        break;
+
+    default:
+        echo "No exact grade found";
+        break;
+}
+
+?>
+
+</body>
+
+</html>
